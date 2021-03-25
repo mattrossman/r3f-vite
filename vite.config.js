@@ -9,7 +9,11 @@ export default defineConfig({
 	build: {
 		outDir: '../dist',
 	},
+	esbuild: {
+		jsxInject: "import React from 'react'",
+	},
 	server: {
 		port: 1234,
+		open: true,
 	},
 })

@@ -1,3 +1,3 @@
 ```console
-npx tiged mattrossman/vite-r3f
+npx tiged mattrossman/r3f-vite
 ```

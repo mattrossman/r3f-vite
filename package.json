@@ -1,5 +1,5 @@
 {
-	"name": "vite-r3f",
+	"name": "r3f-vite",
 	"version": "0.0.0",
 	"scripts": {
 		"dev": "vite",
@@ -7,14 +7,14 @@
 		"serve": "vite preview"
 	},
 	"dependencies": {
-		"@react-three/drei": "^3.8.6",
-		"react": "^17.0.0",
-		"react-dom": "^17.0.0",
-		"react-three-fiber": "^5.3.19",
-		"three": "^0.126.0"
+		"@react-three/drei": "^3.11.2",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-three-fiber": "^5.3.21",
+		"three": "^0.126.1"
 	},
 	"devDependencies": {
 		"@vitejs/plugin-react-refresh": "^1.1.0",
-		"vite": "^2.0.1"
+		"vite": "^2.1.2"
 	}
 }
