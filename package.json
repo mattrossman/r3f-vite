@@ -7,11 +7,11 @@
 		"serve": "vite preview"
 	},
 	"dependencies": {
-		"@react-three/drei": "^3.11.2",
+		"@react-three/drei": "^4.0.3",
+		"@react-three/fiber": "^6.0.8",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
-		"react-three-fiber": "^5.3.21",
-		"three": "^0.126.1"
+		"three": "^0.127.0"
 	},
 	"devDependencies": {
 		"@vitejs/plugin-react-refresh": "^1.1.0",

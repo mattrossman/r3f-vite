@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 import { OrbitControls, TorusKnot } from '@react-three/drei'
-import { Canvas, useFrame } from 'react-three-fiber'
+import { Canvas, useFrame } from '@react-three/fiber'
 
 export default function App() {
 	return (
