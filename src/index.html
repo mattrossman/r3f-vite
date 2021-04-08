@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Vite App</title>
-		<style>
-			#root {
-				width: 100vw;
-				height: 100vh;
-				position: absolute;
-				top: 0;
-				left: 0;
-			}
-		</style>
-	</head>
-	<body>
-		<div id="root"></div>
-		<script type="module">
-			import React, { createElement } from 'react'
-			import ReactDOM from 'react-dom'
-			import App from './App'
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <style>
+      #root {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module">
+      import React, { createElement } from 'react'
+      import ReactDOM from 'react-dom'
+      import App from './App'
 
-			ReactDOM.render(createElement(React.StrictMode, null, createElement(App)), document.getElementById('root'))
-		</script>
-	</body>
+      ReactDOM.render(createElement(React.StrictMode, null, createElement(App)), document.getElementById('root'))
+    </script>
+  </body>
 </html>
