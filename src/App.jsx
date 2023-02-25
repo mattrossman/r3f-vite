@@ -4,7 +4,7 @@ import { Canvas, useFrame } from '@react-three/fiber'
 
 export default function App() {
   return (
-    <Canvas>
+    <Canvas style={{ position: 'fixed', inset: 0 }}>
       <color attach="background" args={['black']} />
       <OrbitControls />
       <Thing />
